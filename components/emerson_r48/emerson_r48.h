@@ -59,10 +59,10 @@ class EmersonR48Component : public PollingComponent {
 
   uint32_t lastCtlSent_;
 
-  boolean dcOff_ = 0;
-  boolean fanFull_ = 0;
-  boolean flashLed_ = 0;
-  boolean acOff_ = 0;
+  bool dcOff_ = 0;
+  bool fanFull_ = 0;
+  bool flashLed_ = 0;
+  bool acOff_ = 0;
 
  protected:
   canbus::Canbus *canbus;
